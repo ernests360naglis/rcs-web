@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" id="RSCwebProject">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About us</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">    
+    <link rel="stylesheet" type="text/css" href="w3.css">
+    <link rel="stylesheet" type="text/css" href="WebDesign.css">
+</head>
+<body class="aboutUs-page">
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3">
+                    <a href="Home.html">
+                        <img src="PicturesForWeb/WebLogo.png" style="margin-top: 10px;margin-bottom: 0px;margin-right: 10px;" class="logo">
+                    </a>
+                </div>
+                <span class="main-menu" style="margin-top: 40px;">
+                    <a href="AboutUs.html"><span class="main-menu active">About us</span></a>                      
+                    <a href="Register.html"><span class="main-menu">Register</span></a>
+                    <a href="Chat.html"><span class="main-menu">Chat</span></a>
+                    <a href="Articles.html"><span class="main-menu">Articles</span></a>     
+                    <a href="Home.html"><span class="main-menu">Home</span></a>
+                </span>
+            </div> 
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="location">
+                        <a href="Home.html">
+                            Home
+                        </a>
+                        <span>></span>
+                        <a class="active" href="AboutUs.html">
+                            About us
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+                <!--vēl kaut kas  -->
+
+            <div class="row">
+                <div class="col-sm-6">
+                        <style>
+                                #map {
+                                 height: 400px;
+                                 width: 500px;
+                                }
+                             </style>
+                           </head>
+                           <body>
+                             <h4>Contacts</h4>
+                             <div id="map"></div>
+                             <script>
+                               function initMap() {
+                                 var uluru = {lat: 56.946285, lng: 24.105078}; //koordinātas
+                                 var map = new google.maps.Map(document.getElementById('map'), {
+                                   zoom: 4,
+                                   center: uluru
+                                 });
+                                 var marker = new google.maps.Marker({
+                                   position: uluru,
+                                   map: map
+                                 });
+                               }
+                             </script>
+                             <script async defer
+                             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-ie8Os5815OxbKlX1tgaNSgRvLo3H5kc&callback=initMap">
+                             </script>
+                
+                
+                </div>
+                <div class="col-sm-6 aboutUs-psize">
+                    <h4>Address:</h4>
+                    <p>Kaut kur, Rīgā, kaut kur, Latvijā</p>
+                    <h4>Email:</h4>
+                    <p>bumbieris@bumbieris.bm</p>
+                    <h4>Phone:</h4>
+                    <p>+ daži cipari</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    &copy; Some good text about the Organization
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="WebProject.js"></script>
+</body>
+</html>

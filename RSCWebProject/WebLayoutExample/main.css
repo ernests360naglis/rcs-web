@@ -1,0 +1,33 @@
+img{
+    max-width: 100%;
+}
+.main-menu{
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+    float: right;
+}
+.main-menu li{
+    float: left;
+    margin-left: 20px;
+    line-height: 10vh;
+}
+.main-menu li.active a{
+    color:red;
+    font-weight: bold;
+}
+header{
+    background: pink;
+    border-bottom: 1px solid #666;
+    min-height: 10vh;
+}
+main{
+    margin-top: 10px;
+    min-height: 80vh;
+}
+footer {
+    text-align: center;
+    min-height: 10vh;
+    line-height: 50px;
+    border-top:1px solid #666;
+}

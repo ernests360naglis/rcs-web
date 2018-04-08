@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" id="RSCwebProject">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration page</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">    
+    <link rel="stylesheet" type="text/css" href="w3.css">
+    <link rel="stylesheet" type="text/css" href="WebDesign.css">
+</head>
+<body class="register-page">
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3">
+                    <a href="Home.html">
+                        <img src="PicturesForWeb/WebLogo.png" style="margin-top: 10px;margin-bottom: 0px;margin-right: 10px;" class="logo">
+                    </a>
+                </div>
+                <span class="main-menu" style="margin-top: 40px;">
+                    <a href="AboutUs.html"><span class="main-menu x">About us</span></a>                      
+                    <a href="Register.html"><span class="main-menu active">Register</span></a>
+                    <a href="Chat.html"><span class="main-menu">Chat</span></a>
+                    <a href="Articles.html"><span class="main-menu">Articles</span></a>     
+                    <a href="Home.html"><span class="main-menu">Home</span></a>
+                </span>
+            </div> 
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="location">
+                    <a href="Home.html">
+                        Home
+                    </a>
+                    <span>></span>
+                    <a class="active" href="Register.html">
+                        Register
+                    </a>
+                </div>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-sm-12 inputs">
+                    <h3 class="register-space">Register</h3>
+                    <form action="https://www.catutopia.com.au/wp-content/uploads/2015/08/HappyCat.jpg">
+                    <div>
+                        <input type="text" class="username" placeholder="*Username" required>
+                    </div>
+                    <div>
+                        <input type="password" class="password" placeholder="*Password" required>
+                    </div>
+                    <div>
+                        <input type="password" class="password-r" placeholder="*Retype password" required>
+                    </div>
+                    <div>
+                        <input type="text" class="first-name" placeholder="*First name" required>
+                    </div>
+                    <div>
+                        <input type="text" class="last-name" placeholder="Last name">
+                    </div>
+                    <div>
+                        <select required class="select-country">
+                            <option value="">*Country:</option>
+                            <option>Latvia</option>
+                            <option>Lithuania</option>
+                            <option>Estonia</option>
+                            <option>Narnia</option>
+                            <option>Zimbabve</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="label-checkbox"><span><input type="checkbox" name="checkbox" value="value" required class="checkbox">Agree with terms and conitions*</span></label>
+                    </div>
+                    <div>
+                        <input id="btn-register" type="submit" value="Register">
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    &copy; Some good text about the Organization
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="WebProject.js"></script>
+</body>
+</html>
